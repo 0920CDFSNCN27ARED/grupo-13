@@ -11,8 +11,11 @@ Elegimos la tematica de Bebidas Alcoholicas ya que la venta de estos productos  
 Alejo Augusto Florentin - 20 años
 Hola mi nombre es Alejo , estudio la carrera de Ingenieria en Energias en la UNSAM , me gustan los autos , la tecnologia y siempre me intereso el ambito de la programación , espero sacarle mucho provecho al curso con el proyecto integrador.
 
+Dante Bottaro - 19 años
+Hola, soy Dante. Me gusta dibujar y me interesa la biología. Me inscribí en DigitalHouse para aprender un poco de programacíon, ya que siempre me llamó la atención; y voy a intentar llevarme todo lo que pueda de la experiencia del curso y el proyecto!
 
-
+Guillermo Gaidek - 27 años
+Todo el mundo me dice Willy, me gusta tocar la bateria y juntarme a jugar al futbol con amigos. Actualmente estoy en 3er año de Ingeniería Informática en la UP y trabajando en American Express hace 5 años ya. Vengo de Java y mucho SQL y me anote a Digital House para aprender más sobre el mundo del desarrollo Web. 
 
 # Sitios Web de referencia
 https://www.vinosyspirits.com
