@@ -1,0 +1,65 @@
+body{
+     font-family: 'Roboto', sans-serif;
+}
+form{
+     
+     border: solid 3px black;
+     box-sizing: border-box;
+     width: 400px;
+     border-radius:  5px;
+     padding-left:75px ;
+     margin-top: 200px;
+     margin-left: 725px;
+     
+}
+input{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     width:250px ;
+     
+}
+
+label{
+     text-align: center;
+     
+     
+}
+
+.clave{
+     color:cornflowerblue;
+}
+
+.encabezado{
+     background-size: auto;
+     background-color: black;
+     height: 150px;
+     
+    
+}
+
+img{
+     height: 150px;
+    background-color: black;
+}
+
+
+.boton{
+ width: 75px; 
+}
+
+h3{
+     padding-left: 60px;
+}
+
+.checkbox{
+     width: 15px;
+}
+
+ .recompensas{
+     border: solid 3px gold;
+     width: 500px;
+     text-align: center;
+     margin-top:10px;
+     margin-left: 1200px;
+     margin-top: -275px;
+}
