@@ -1,6 +1,12 @@
 body{
      font-family: 'Roboto', sans-serif;
 }
+
+.main-nav{
+     display: flex;  
+     justify-content: space-evenly;
+}
+
 form{
      
      border: solid 3px black;
@@ -10,19 +16,16 @@ form{
      padding-left:75px ;
      margin-top: 200px;
      margin-left: 725px;
-     
 }
+
 input{
      margin-top: 10px;
      margin-bottom: 10px;
      width:250px ;
-     
 }
 
 label{
      text-align: center;
-     
-     
 }
 
 .clave{
@@ -33,18 +36,16 @@ label{
      background-size: auto;
      background-color: black;
      height: 150px;
-     
-    
 }
 
 img{
      height: 150px;
-    background-color: black;
+     background-color: black;
 }
 
 
 .boton{
- width: 75px; 
+     width: 75px; 
 }
 
 h3{
@@ -62,4 +63,33 @@ h3{
      margin-top:10px;
      margin-left: 1200px;
      margin-top: -275px;
+}
+
+.cart-main-article{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.cart-subarticle-producto{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+.cart-subarticle-cantidad{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+.cart-subarticle-precio{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+.cart-subarticle-subtotal{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
 }

@@ -6,7 +6,7 @@ const staticFileRouter = express.static("public");
 app.use(staticFileRouter);
 
 app.listen(3000, () => {
-  console.log("Estamos escuchando al puerto 3000");
+  console.log("Escuchando puerto 3000");
 });
 
 app.get("/", (req, res) => {
@@ -23,10 +23,10 @@ app.get("/register", (req, res) => {
   res.sendFile(path.resolve(__dirname , "views/register.html"));
 });   
 
-app.get("/carrito", (req, res) => {
+app.get("/cart", (req, res) => {
   res.sendFile(path.resolve(__dirname , "views/cart.html"));
 });   
 
 app.get("/products", (req, res) => {
-  res.sendFile(path.resolve(__dirname , "views/product.html"));
+  res.sendFile(path.resolve(__dirname , "views/products.html"));
 });   
