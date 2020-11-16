@@ -11,20 +11,23 @@
 </head>
 <body>
 <header>
-     <div class="encabezado"> <img class ="img" src="/img/Boceto-Logo1.jpg" alt="Site logo"> </div>
+     <div class="encabezado"> 
+          <img class ="img" src="/img/Boceto-Logo1.jpg" alt="Site logo"> 
+          <input class="search" type="search" placeholder="Buscar Productos y Mas">
+     </div> 
+     </div>
      <nav class="main-nav">
-          <div><a href="/">Inicio</a></div>
-          <div><a href="/register">Registrarse</a></div>
-          <div><a href="/login">Iniciar Sesión</a></div>
-          <div><a href="/products">Productos</a></div>
-          <div><a href="/cart">Carrito</a></div>
+          <div ><a class="box" href="/">Inicio </a></div>
+          <div ><a class="box"href="/register">Registrarse </a></div>
+          <div ><a class="box" href="/login">Iniciar Sesión </a></div>
+          <div ><a class="box" href="/products">Productos   </a></div>
+          <div ><a class="box" href="/cart">Carrito </a></div>
      </nav>
-     <h1>Inicio de Sesión</h1>
+    
 </header>
 
-<main> 
+<main > 
      <form class="login" action="views/home.html" method="POST">
-     <h3>Ingrese a su cuenta</h3>
      <label for="Usuario">Usuario</label><br>
      <input type="email" name="Usuario"> <br>
      <label for="Contraseña">Contraseña</label><br>
