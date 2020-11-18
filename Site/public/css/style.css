@@ -66,14 +66,10 @@ top:115px;
     margin-left: 550px;
     position: relative;
     top: -60px;
-    
-    
-    
-
-     
-    
-     
 }
+
+
+
 
 
 
@@ -278,3 +274,23 @@ label{
      border: 1px solid;
      border-radius: 6px;
 }
+
+footer{
+     background-color: black;
+     ;
+     background-size: auto;
+     height: 175px;
+     position: relative;
+     top:615px;
+    display:flex
+     
+
+}
+.categorias{
+     color:white;
+     
+}
+.Ayuda{
+     color: white;
+}
+
