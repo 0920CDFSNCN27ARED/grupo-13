@@ -281,7 +281,7 @@ footer{
      background-size: auto;
      height: 175px;
      position: relative;
-     top:615px;
+     top:200px;
     display:flex
      
 
@@ -299,10 +299,80 @@ footer{
      
 }
 
-.titulo-1{
+.NuestrasMarcas{
+     display:flex;
+     justify-content: center;
+     border: solid 0px;
+     border-radius: 5px;
+     background-color:white;
+     padding: 20px;
+     width: 100%;
+}
 
+.titulo-1{
+     
      text-align: center;
      margin-top: 50px;
      margin-bottom: 30px;
 
+}
+
+.Marcas{
+     height: 200px;
+     width: 200px;
+     margin-left: 50px;
+    
+     
+     
+
+}
+     
+
+
+.search-home{
+     width: 25%;
+    font-size: 16px;
+    color: #757575;
+    padding: 0 0 0 20px;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 550px;
+    position: relative;
+    top: 15px;
+
+
+}
+
+.home-products{
+     height: 200px;
+     width: 200px;
+     margin-left: 50px;
+
+
+}
+
+.home-products-flex{
+     display:flex;
+     justify-content: center;
+
+}
+
+.articulo{
+     border: solid 0px;
+     background-color: white;
+     border-radius: 7px;
+     margin-left: 50px;
+     height: 250px;
+     
+     
+
+}
+
+.precios{
+     margin-left: 20px;
+     margin-top: 20px;
+}
+
+.fas{
+     margin-left: 40px;
 }
