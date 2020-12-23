@@ -1,21 +1,11 @@
 let express = require ("express")
 let router = express.Router()
+let productos=require("../controllers/productosController.js")
 
-router.get("/all", (req, res) => {
-     res.sendFile(path.resolve(__dirname , "views/products.html"));
-   }); 
+router.get("/all",productos.todos ); 
 
-router.get("/:id",function(req,res){
-     let idProducts = req.params.id;
-     for(i=0;i<products.length;i++){
-         if(products[i].id==idSerie){
-             res.send(products[i])
-         }
-     }
- })
+router.get("/:id",productos.elegir)
  
- router.get("/create", (req, res) => {
-   res.send("Crea tu producto")
- }); 
+ router.get("/create",productos.crear ); 
 
  module.exports=router;
