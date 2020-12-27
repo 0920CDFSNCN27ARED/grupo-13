@@ -6,6 +6,6 @@ router.get("/all",productos.todos );
 
 router.get("/:id",productos.elegir)
  
- router.get("/create",productos.crear ); 
+router.get("/create",productos.crear ); 
 
  module.exports=router;

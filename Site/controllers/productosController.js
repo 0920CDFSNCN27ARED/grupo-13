@@ -1,7 +1,7 @@
 const productos ={
 
      todos:(req,res)=>
-     {res.sendFile(path.resolve(__dirname , "views/products.html"))},
+     {res.render("products")},
 
      elegir:(req,res)=>{
           let idProducts = req.params.id;

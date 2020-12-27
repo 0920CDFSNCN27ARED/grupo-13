@@ -1,23 +1,16 @@
 let express = require ("express")
 let router = express.Router()
+let mainControllers= require("../controllers/mainController.js")
 
-router.get("/", (req, res) => {
-     res.sendFile(path.resolve(__dirname , "views/home.html"));
-   });
-   router.post("/", (req,res)=>{
-     res.sendFile(path.resolve(__dirname ,"views/home.html"));
-   });
-   router.get("/login", (req, res) => {
-     res.sendFile(path.resolve(__dirname , "views/login.html"));
-   });
-   router.get("/register", (req, res) => {
-     res.sendFile(path.resolve(__dirname , "views/register.html"));
-   });   
+router.get("/",main.home );
+   router.post("/", main.post);
    
-   router.get("/cart", (req, res) => {
-     res.sendFile(path.resolve(__dirname , "views/cart.html"));
-   });   
+   router.get("/login",main.login);
+   
+   router.get("/register",main.register);   
+   
+   router.get("/cart",main.cart);   
    
 
 
-   module.exports=routes
+   module.exports=router;
