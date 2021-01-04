@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<%- include("./partials/head")%>
+
+<body>
+     
+<%- include("./partials/header")%>
+
+<form action="" method="POST"></form>
+<div>
+     <label for="name">Nombre del Producto</label>
+     <input type="text" name="name" placeholder="Ej:Iphone Xr">
+</div>
+<div>
+     <label for="description">Descripcion del Producto</label>
+     <input type="text" name="description" placeholder="Breve Descripcion">   
+</div>
+<div>
+     <label for="image">Imagen del Producto</label>
+     <input type="file" name="image" >   
+</div>
+<div>
+     <label for="category">Tipo de producto</label>
+     <select name="category" id="">
+          <option value="Wh">Whiskies</option>
+          <option value="Cv">Cerveza</option>
+          <option value="Sp">Spirits</option>
+          <option value="Sa">Sin Alcohol</option>
+          <option value="Vn">Vinos</option>
+     </select>
+</div>
+<div>
+     <label for="cant"> Cantidad de Stock</label>
+    <input type="text" name="cant" >
+</div>
+ <div>
+     <label for="price">Precio del producto</label>
+     <input type="text" name="price" >
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("./partials/footer")%>
+
+     
+</body>

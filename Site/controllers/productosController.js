@@ -13,8 +13,13 @@ const productos ={
       },
 
       crear:(req, res) => {
-          res.send("Crea tu producto")
-        } 
+          res.send("create")
+        } ,
+
+        editar:(req, res) => {
+            res.send("edit")
+          } 
+  
 
 }
 
