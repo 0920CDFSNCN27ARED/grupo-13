@@ -8,8 +8,10 @@ router.get("/:id",productos.elegir)
  
 router.get("/create",productos.crear ); 
 
-router.post("/create",productos.crear);
+router.post("/create",productos.guardar);
 
-router.get("/edit",productos.editar );
+router.get("/edit/:id",productos.editar );
+
+router.put("/edit",productos.actualizar );
 
  module.exports=router;

@@ -2,7 +2,8 @@ let express = require ("express")
 let router = express.Router()
 let mainControllers= require("../controllers/mainController.js")
 
-router.get("/",main.home );
+   router.get("/",main.home );
+   
    router.post("/", main.post);
    
    router.get("/login",main.login);
