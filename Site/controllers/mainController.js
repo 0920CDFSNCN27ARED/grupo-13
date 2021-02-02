@@ -1,4 +1,4 @@
-const main ={
+const mains ={
 
      home:(req,res)=>
      {res.render("home")},
@@ -12,7 +12,7 @@ const main ={
      register:(req, res) => 
      {res.render("register") },
 
-     register:(req, res) => 
+     cart:(req, res) => 
      {res.render("cart") },
 
      
@@ -24,4 +24,4 @@ const main ={
 
 
 
-module.exports=main;
+module.exports= mains;

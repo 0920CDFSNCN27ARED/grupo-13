@@ -1,6 +1,6 @@
 let express = require ("express")
 let router = express.Router()
-let mainControllers= require("../controllers/mainController.js")
+let main = require("../controllers/mainController.js")
 
    router.get("/",main.home );
    
