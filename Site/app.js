@@ -6,15 +6,15 @@ const methodOverride = require ("method-override")
 
 
 app.set("view engine","ejs")
-app.set("view",__dirname+"/views")
+app.set("views",__dirname+"/views")
 app.use(express.static(__dirname+"/public"));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json())
 app.use(methodOverride("_method"))
 
-let rutasProducts=require("./routes/products.js")
+let rutasProducts=require("./Routes/products.js")
 
-let rutasMain=require("./routes/main.js")
+let rutasMain=require("./Routes/main.js")
 
 
 app.listen(3000, () => {
@@ -25,9 +25,7 @@ app.use("/products",rutasProducts)
 
 app.use("/",rutasMain)
 
-app.use((req,res,next)=>{
-  res.status(404).render("not-found")
-});
+
 
 
 

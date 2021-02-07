@@ -10,8 +10,8 @@ let main = require("../controllers/mainController.js")
    
    router.get("/register",main.register);   
    
-   router.get("/cart",main.cart);   
+   
    
 
 
-   module.exports=router;
+module.exports=router;

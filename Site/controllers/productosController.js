@@ -1,43 +1,37 @@
 const productos ={
 
      todos:(req,res)=>
-     {res.render("products")},
+     {res.render("products/productos")},
 
      elegir:(req,res)=>{
-          let idProducts = req.params.id;
-          for(i=0;i<products.length;i++){
-              if(products[i].id==idProducts){
-                  res.send(products[i])
-              }
-          }
+          
       },
 
       crear:(req, res) => {
-          res.render("create")
+          res.render("products/create")
         } ,
 
         guardar:(req, res) => {
-            res.render("create")
+            res.render("products/create")
           } ,
 
          
 
       editar:(req, res) => {
-            res.render("edit")
+            res.render("products/edit")
           } ,
 
 
       actualizar:(req, res) => {
-            res.render("edit")
+            res.render("products/edit")
           } ,
+
+          cart:(req, res) => 
+     {res.render("products/cart") },
+
   
 
 }
-
-
-
-
-
 
 
 

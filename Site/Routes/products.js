@@ -1,17 +1,20 @@
 let express = require ("express")
 let router = express.Router()
-let productos=require("../controllers/productosController.js")
+let products=require("../controllers/productosController.js")
 
-router.get("/all",productos.todos ); 
+router.get("/all",products.todos ); 
 
-router.get("/:id",productos.elegir)
+router.get("/cart",products.cart);   
+
+router.get("/:id",products.elegir)
  
-router.get("/create",productos.crear ); 
+router.get("/create",products.crear ); 
 
-router.post("/create",productos.guardar);
+router.post("/create",products.guardar);
 
-router.get("/edit/:id",productos.editar );
+router.get("/edit/:id",products.editar );
 
-router.put("/edit",productos.actualizar );
+router.put("/edit",products.actualizar );
 
- module.exports=router;
+
+module.exports=router;
