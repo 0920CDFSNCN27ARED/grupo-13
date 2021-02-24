@@ -1,7 +1,18 @@
 module.exports = (sequelize, DataTypes)=>{
-     const  = sequelize.define("",()=>{
+     const stock = sequelize.define("Stock", 
+     {
+          id:{
+              type: DataTypes.INTEGER,
+              autoIncrement:true,
+              primaryKey:true
+          } ,
+          
+          cantidad:{type: DataTypes.INTEGER} ,
+          
 
-     })
+     },
+     {} 
+     )
 
-     return 
+     return stock
 }

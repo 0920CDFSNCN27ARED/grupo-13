@@ -1,7 +1,25 @@
 module.exports = (sequelize, DataTypes)=>{
-     const  = sequelize.define("",()=>{
+     const usuario = sequelize.define("Usuarios", 
+     {
+          id:{
+              type: DataTypes.INTEGER,
+              autoIncrement:true,
+              primaryKey:true
+          } ,
+          
+          nombre_completo:{type: DataTypes.VARCHAR(30)} ,
+          
+          genero:{type: DataTypes.VARCHAR(15)} ,
+          
+          email:{type: DataTypes.VARCHAR(50)} ,
 
-     })
+          contraseña : {type:DataTypes.VARCHAR(15)}
 
-     return 
+
+
+     },
+     {}
+     )
+
+     return usuario
 }
