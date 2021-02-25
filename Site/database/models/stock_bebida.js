@@ -6,8 +6,6 @@ module.exports = (sequelize, DataTypes)=>{
               autoIncrement:true,
               primaryKey:true
           } ,
-          
-          nombre_bebida:{type: DataTypes.VARCHAR(30)} ,
 
           id_bebida:{type: DataTypes.INTEGER},
           

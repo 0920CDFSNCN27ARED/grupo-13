@@ -21,5 +21,12 @@ module.exports = (sequelize, DataTypes)=>{
      {}
      )
 
+     usuario.associate = (models)=>{
+          usuario.belongsToMany(models.bebida,{
+              through:"usuario_bebida",
+              as:"user"
+          })
+}
+
      return usuario
 }
